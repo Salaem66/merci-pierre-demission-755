@@ -10,7 +10,7 @@ const App = () => {
     setTimeout(() => {
       setShowFireworks(false);
       fireworksRef.current.style.display = 'none';
-    }, 3000);
+    }, 5000); // Augmentation de la durée d'affichage des feux d'artifice
   };
 
   return (
@@ -26,11 +26,11 @@ const App = () => {
           ref={fireworksRef}
           style={{ display: 'none' }}
         >
-          <div className="firework"></div>
-          <div className="firework"></div>
-          <div className="firework"></div>
-          <div className="firework"></div>
-          <div className="firework"></div>
+          <div className="firework">🎆</div>
+          <div className="firework">🎇</div>
+          <div className="firework">💥</div>
+          <div className="firework">🧨</div>
+          <div className="firework">✨</div>
         </div>
       </button>
     </div>
