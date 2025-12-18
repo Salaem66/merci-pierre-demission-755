@@ -4,10 +4,7 @@
 
 .firework {
   position: absolute;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: #fff;
+  font-size: 20px;
   animation: firework 2s ease-out infinite;
 }
 
